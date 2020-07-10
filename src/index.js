@@ -1,26 +1,16 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
 //import App from './App';
 import * as serviceWorker from './serviceWorker';
+import './index.css';
+import App from './App'
+
+import React from 'react';
+import ReactDOM from 'react-dom'
+
+// React Components
+import MyInfo from './Components/MyInfo'
 
 
-function MyApp() {
-  return (
-    <ul>
-      <li>Item 1</li>
-      <li>Item 2</li>
-      <li>Item 3</li>
-    </ul>
-  )
-}
-
-ReactDOM.render(
-  <MyApp />,
-  document.getElementById('root')
-);
-
-
+ReactDOM.render(<App />, document.getElementById("root"));
 
 
 
