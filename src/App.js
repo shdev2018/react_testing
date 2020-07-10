@@ -1,15 +1,17 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import MyInfo from './Components/MyInfo'
+import React from 'react'
+
+import NavBar from './Components/NavBar'
+import MainContent from './Components/MainContent'
+import Footer from './Components/Footer'
 
 function App() {
   return (
-    <div className="App">
-      <h1>Header</h1>
-      <MyInfo/>
+    <div>
+      <NavBar />
+      <MainContent />
+      <Footer />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
