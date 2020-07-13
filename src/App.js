@@ -9,7 +9,7 @@ function App() {
 
   return (
     <div>
-      <h1>Hello {fName + " " + lName}</h1>
+      <h1>Hello { `${fName} ${lName}` }</h1>
       <NavBar />
       <ToDoList />
     </div>
